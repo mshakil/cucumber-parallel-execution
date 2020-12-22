@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src/test/java/features/Quora.feature", glue = { "seleniumgluecode" }, plugin = {
 		"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent-reports/Feature4/report.html" }, monochrome = true)
 
-public class Quorarunner {
+public class QuoraAvoid {
 	@AfterClass
 	public static void WriteExtentReport() {
 		Reporter.loadXMLConfig(new File("Config/report-config.xml"));
