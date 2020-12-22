@@ -121,7 +121,7 @@
 						<forkMode>perthread</forkMode>
 						<threadCount>4</threadCount>
 						<includes>
-						<include>**/*runner.java</include>
+							<include>**/*runner.java</include>
 						</includes>
 					</configuration>
 				</plugin>

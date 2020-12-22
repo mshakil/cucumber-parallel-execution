@@ -5,5 +5,4 @@ Feature: Twitter Homepage
     Given shuold navigate to twitter login page
     When twitter website open user should wait for two seconds
     And Write some output on console for twitter test
-    Then close webdriver for quora test
-    
+    Then close webdriver for twitter test 
