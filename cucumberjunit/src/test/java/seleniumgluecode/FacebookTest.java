@@ -17,7 +17,7 @@ public class FacebookTest {
 	public void shuold_navigate_to_facebook_login_page() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    
-		DesiredCapabilities capability = DesiredCapabilities.internetExplorer();
+		DesiredCapabilities capability = DesiredCapabilities.chrome();
 		capability.setBrowserName("chrome");
 		capability.setPlatform(Platform.LINUX);
 		
